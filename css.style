@@ -138,3 +138,20 @@ body {
   border-top: 1px solid #ddd;
   margin-top: 40px;
 }
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .nav a {
+    margin-right: 0;
+  }
+}
